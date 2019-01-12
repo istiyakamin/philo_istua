@@ -1,5 +1,6 @@
 <?php 
 define('VERSIONS', time());
+require_once get_theme_file_path('/inc/tgm.php');
 
 function philo_istua_theme_setup(){
 
