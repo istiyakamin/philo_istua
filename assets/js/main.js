@@ -603,6 +603,9 @@
         } 
 
     };
+    /* Wordpress script
+    * ------------------------------------------------------ */
+    jQuery(".menu-item-has-children").addClass("has-children");
 
 
    /* Initialize

@@ -10,6 +10,7 @@ function philo_istua_theme_setup(){
     add_theme_support('post-formats', array('image', 'audio', 'video', 'quote', 'link', 'gallery'));
     add_editor_style('/assets/css/editor-style.css');
 
+	register_nav_menu( 'primary', __( 'Primary Menu', 'philo_istua' ) );
     
 }
 add_action('after_setup_theme', 'philo_istua_theme_setup');
